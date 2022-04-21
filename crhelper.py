@@ -142,3 +142,4 @@ def cfn_handler(event, context, create, update, delete, logger, init_failed):
     finally:
         # Cancel timer before exit
         t.cancel()
+
